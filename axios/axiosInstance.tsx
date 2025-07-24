@@ -3,7 +3,7 @@ import axios, { AxiosRequestConfig, AxiosResponse, AxiosError } from 'axios';
 
 // Axios instance
 const axiosInstance = axios.create({
-  baseURL: "http://localhost:3233/api" ||"https://example-fko1.onrender.com/api",
+  baseURL: "https://example-fko1.onrender.com/api" ||  "http://localhost:3233/api",
   timeout: 15000,
 });
 
